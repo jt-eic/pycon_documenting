@@ -1,0 +1,11 @@
+format: jb-book
+root: index
+parts:
+  - caption: Guides
+    numbered: True  # Only applies to chapters in Part 1.
+    chapters:
+    - file: guides/install
+    - file: guides/points
+  - caption: API reference
+    chapters:
+    - glob: api/*
